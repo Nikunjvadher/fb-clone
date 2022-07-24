@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0a01e841e7.js" crossorigin="anonymous"></script>
+
+
+    <title>FB clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img class="logo" src="images/logo2.gif" alt="FACEBOOK">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input class="search-input" type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="nav-middle">
+
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><img src="images/menu.png" alt=""></li>
+                <li><img src="images/messenger.png" alt=""></li>
+                <li><img src="images/notification.png" alt=""></li>
+            </ul>
+            <div class="nav-user-icon" onclick="settingsMenuToggle()">
+                <img src="images/user1.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- ----------settings menu ----------- -->
+        <div class="settings-menu">
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <div class="about-profile">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Nikunj Vadher</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="see-all">
+                    <p>See All Profiles</p>
+                </div>
+            </div>
+
+            <div class="customize-account">
+                <div>
+                    <img src="images/setting.png" alt="">
+                    <div class="setting-data">
+                        <p>Setting & privacy</p>
+                        <img src="images/see-more.png" alt="">
+                    </div>
+
+                </div>
+                <div>
+                    <img src="images/help.png" alt="">
+                    <div class="setting-data">
+                        <p>Help & support</p>
+                        <img src="images/see-more.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/night-mode.png" alt="">
+                    <div class="setting-data">
+                        <p>Display & accessibility</p>
+                        <img src="images/see-more.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give feedback</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="images/logout.png" alt="">
+                    <div>
+                        <p>Log out</p>
+                    </div>
+                </div>
+            </div>
+            <p class="terms"> <a href="#">
+                    Terms &middot; Terms &middot; Advertising &middot;
+                    Ad Choice&middot; Cookies &middot; More &middot; More &copy; 2022 </a> </p>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/profile-pic.png" alt=""> Nikunj Vadher</a>
+                <a href="#"><img src="images/friend.png" alt=""> Friends </a>
+                <a href="#"><img src="images/groups.png" alt=""> Groups </a>
+                <a href="#"><img src="images/play-video.png" alt=""> Watch</a>
+                <div class="see-more  online-list">
+                    <img src="images/see-more.png" alt="">
+                    <p> See more </p>
+                </div>
+                <!-- <a href="#"><img src="images/see-more.png" alt=""> See More</a> -->
+            </div>
+            <div class="imp-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/profile-pic.png" alt=""> Nikunj Vadher</a>
+                <a href="#"><img src="images/friend.png" alt=""> Friends </a>
+                <a href="#"><img src="images/groups.png" alt=""> Groups </a>
+                <a href="#"><img src="images/play-video.png" alt=""> Watch</a>
+                <div class="see-more  online-list">
+                    <img src="images/see-more.png" alt="">
+                    <p> See more </p>
+                </div>
+                <!-- <a href="#"><img src="images/see-more.png" alt=""> See More</a> -->
+            </div>
+        </div>
+
+
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story add-story">
+                    <img src="images/new.png" alt="">
+                    <p>Create Story</p>
+                </div>
+                <div class="story story1">
+                    <img src="images/user1.jpg" alt="">
+                    <p>Nikunj Vadher</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/user2.jpg" alt="">
+                    <p>Nikunj Vadher</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/user3.jpg" alt="">
+                    <p>Nikunj Vadher</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/user4.jpg" alt="">
+                    <p>Nikunj Vadher</p>
+                </div>
+            </div>
+
+            <div class="main-data">
+                <div class="new-post-container">
+                    <div>
+                        <div class="user-img">
+                            <img src="images/profile-pic.png" alt="">
+                            <input type="text" size="40" placeholder="What's on your mind, Nikunj?">
+                        </div>
+                        <div class="activity">
+                            <div>
+                                <img src="images/live.png" alt="">
+                                <p>Live Video</p>
+                            </div>
+                            <div>
+                                <img src="images/photo-video.png" alt="">
+                                <p> Photo / Video</p>
+                            </div>
+                            <div>
+                                <img src="images/happy.png" alt="">
+                                <p>Feeling / Activity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="room">
+                    <div class="room-link">
+                        <a href="#"><img src="images/live.png" alt="">Create Room</a>
+                    </div>
+                    <div class="online-person online-friends ">
+                        <div class="nav-user-icon online"><img src="images/user1.jpg" alt=""></div>
+                        <div class="nav-user-icon online"><img src="images/user2.jpg" alt=""></div>
+                        <div class="nav-user-icon online"><img src="images/user3.jpg" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="user-details">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nikunj Vadher</p>
+                                <span>Yesterday at 13:05</span>
+                            </div>
+                        </div>
+                        <img class="menu-icon" src="images/menu-vertical.png" alt="">
+                    </div>
+
+
+                    <p class="post-text">Lorem ipsum dolor <strong>@Nikunj Vadher</strong> sit amet consectetur
+                        adipisicing
+                        elit. Corporis officiis impedit similique fugit dolor numquam labore atque, assumenda eaque.
+                        Quis
+                        natus temporibus consequatur doloremque Lorem Lorem, ipsum..
+                        <a href="#">#web_Dev</a>
+                        <a href="#">#web_Dev</a>
+                        <a href="#">#web_Dev</a>
+                    </p>
+                    <img class="post-img" src="https://source.unsplash.com/random/?crackers/100" alt="">
+
+
+                    <div class="liked-person">
+                        <a href="#"><img src="images/like-blue.svg" alt=""></a>
+                        <p>Nikunj vadher and 5 others</p>
+                    </div>
+                    <div class="activity">
+                        <div>
+                            <img src="images/like.png" alt="">
+                            <p>100</p>
+                        </div>
+                        <div>
+                            <img src="images/comments.png" alt="">
+                            <p> 10</p>
+                        </div>
+                        <div>
+                            <img src="images/share.png" alt="">
+                            <p>5</p>
+                        </div>
+                    </div>
+                    <!-- <div class="post-row">
+                        <div class="activity-icons">
+                            <a href="#"><img src="images/like.png" alt="">20</a>
+                            <a href="#"><img src="images/comments.png" alt="">2</a>
+                            <a href="#"><img src="images/share.png" alt="">4</a>
+                        </div>
+                    </div> -->
+                    <div class="post-profle">
+                        <div class="user-img write-comments">
+                            <img src="images/profile-pic.png" alt="">
+                            <div class="input-container">
+                                <input type="text" size="30" placeholder="Write a comment....">
+                                <!-- <i class="fa-regular fa-face-laugh"></i> -->
+                                <img src="images/smile.png" alt="">
+                                <img src="images/camera.png" alt="">
+                                <img src="images/gif.png" alt="">
+                                <img src="images/gif.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="user-details">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nikunj Vadher</p>
+                                <span>Yesterday at 13:05</span>
+                            </div>
+                        </div>
+                        <img class="menu-icon" src="images/menu-vertical.png" alt="">
+                    </div>
+
+
+                    <p class="post-text">Lorem ipsum dolor <strong>@Nikunj Vadher</strong> sit amet consectetur
+                        adipisicing
+                        elit. Corporis officiis impedit similique fugit dolor numquam labore atque, assumenda eaque.
+                        Quis
+                        natus temporibus consequatur doloremque Lorem Lorem, ipsum..
+                        <a href="#">#web_Dev</a>
+                        <a href="#">#web_Dev</a>
+                        <a href="#">#web_Dev</a>
+                    </p>
+                    <img class="post-img" src="https://source.unsplash.com/random/?city/100" alt="">
+
+
+                    <div class="liked-person">
+                        <a href="#"><img src="images/like-blue.svg" alt=""></a>
+                        <p>Nikunj vadher and 5 others</p>
+                    </div>
+                    <div class="activity">
+                        <div>
+                            <img src="images/like.png" alt="">
+                            <p> 300</p>
+                        </div>
+                        <div>
+                            <img src="images/comments.png" alt="">
+                            <p> 10 </p>
+                        </div>
+                        <div>
+                            <img src="images/share.png" alt="">
+                            <p>5</p>
+                        </div>
+                    </div>
+
+
+                    <div class="post-profle">
+                        <div class="user-img write-comments">
+                            <img src="images/profile-pic.png" alt="">
+                            <div class="input-container">
+                                <input type="text" size="30" placeholder="Write a comment....">
+                                <!-- <i class="fa-regular fa-face-laugh"></i> -->
+                                <img src="images/smile.png" alt="">
+                                <img src="images/camera.png" alt="">
+                                <img src="images/gif.png" alt="">
+                                <img src="images/gif.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="user-details">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+                            <div>
+                                <p>Nikunj Vadher</p>
+                                <span>Yesterday at 13:05</span>
+                            </div>
+                        </div>
+                        <img class="menu-icon" src="images/menu-vertical.png" alt="">
+                    </div>
+
+
+                    <p class="post-text">Lorem ipsum dolor <strong>@Nikunj Vadher</strong> sit amet consectetur
+                        adipisicing
+                        elit. Corporis officiis impedit similique fugit dolor numquam labore atque, assumenda eaque.
+                        Quis
+                        natus temporibus consequatur doloremque Lorem Lorem, ipsum..
+                        <a href="#">#web_Dev</a>
+                        <a href="#">#web_Dev</a>
+                        <a href="#">#web_Dev</a>
+                    </p>
+                    <img class="post-img" src="https://source.unsplash.com/random/?city,bike/100" alt="">
+
+
+                    <div class="liked-person">
+                        <a href="#"><img src="images/like-blue.svg" alt=""></a>
+                        <p>Nikunj vadher and 5 others</p>
+                    </div>
+                    <div class="activity">
+                        <div>
+                            <img src="images/like.png" alt="">
+                            <p> 1k </p>
+                        </div>
+                        <div>
+                            <img src="images/comments.png" alt="">
+                            <p> 300 </p>
+                        </div>
+                        <div>
+                            <img src="images/share.png" alt="">
+                            <p>5</p>
+                        </div>
+                    </div>
+
+                    <div class="post-profle">
+                        <div class="user-img write-comments">
+                            <img src="images/profile-pic.png" alt="">
+                            <div class="input-container">
+                                <input type="text" size="30" placeholder="Write a comment....">
+                                <img src="images/smile.png" alt="">
+                                <img src="images/camera.png" alt="">
+                                <img src="images/gif.png" alt="">
+                                <img src="images/gif.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="see-all-btn">See All</button>
+
+
+            </div>
+        </div>
+
+
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Contacts</h4>
+                <div class="contact-details">
+                    <a href="#"><img src="images/play-room.png" alt=""></a>
+                    <a href="#"><img src="images/search.png" alt=""></a>
+                    <a href="#"><img class="menu-icon" src="images/menu-vertical.png" alt=""></a>
+                </div>
+            </div>
+            <div class="imp-links">
+                <div class="online-list">
+                    <div class="online">
+                        <img class="online-friends" src="images/user1.jpg" alt="">
+                    </div>
+                    <p> Nikunj Vadher</p>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img class="online-friends" src="images/user2.jpg" alt="">
+                    </div>
+                    <p> Nikunj Vadher</p>
+                </div>
+                <div class="see-more  online-list">
+                    <img src="images/see-more.png" alt="">
+                    <p> See more </p>
+                </div>
+            </div>
+            <div class="group-info">
+                <h4>Group Conversation</h4>
+                <a href="#"><img src="images/profile-pic.png" alt=""> web developers </a>
+                <a href="#"><img src="images/profile-pic.png" alt=""> Full Stack dev </a>
+            </div>
+            <div class="imp-links group">
+                <a href="#"><img src="images/new.png" alt=""> Create New Group</a>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>20</h3>
+                    <span>August</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p> <img src="images/location.png" alt="">Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>August</span>
+                </div>
+                <div class="right-event">
+                    <h4>web dev</h4>
+                    <p> <img src="images/location.png" alt="">Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <!-- <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div> -->
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2022 - All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
