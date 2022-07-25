@@ -103,12 +103,12 @@
 
 
 
-.main-content::-webkit-scrollbar-thumb{
+/* .main-content::-webkit-scrollbar-thumb{
     background-color: red;
 }
 .left-sidebar::-webkit-scrollbar{
     /* overflow-y: scroll;
-    overflow-x: hidden; */
+    overflow-x: hidden; s
     background: linear-gradient(red,green,blue);
     display: block;
     overflow: auto;
@@ -116,7 +116,7 @@
 .main-content::-webkit-scrollbar-thumb{
     color: white;
     background-color: white;
-}
+} */
 
 * {
     margin: 0;
