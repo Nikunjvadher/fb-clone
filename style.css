@@ -368,7 +368,7 @@ nav {
     align-self: flex-start;
     height: 110vh;
     width: 23%;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 
    
 }
