@@ -20,6 +20,8 @@
     --bg-footer: white;
     --bg-para: white;
 
+    --bg-dark-btn: black; 
+
 
 
 
@@ -76,6 +78,8 @@
 
     --see-more: rgba(173, 171, 171, 0.61);
 
+    --bg-dark-btn: white; 
+
 
     --bg-dark-clr: white;
     --bg-body-clr: #242424;
@@ -107,8 +111,8 @@
     background-color: red;
 }
 .left-sidebar::-webkit-scrollbar{
-    /* overflow-y: scroll;
-    overflow-x: hidden; s
+    overflow-y: scroll;
+    overflow-x: hidden; 
     background: linear-gradient(red,green,blue);
     display: block;
     overflow: auto;
@@ -307,7 +311,7 @@ nav {
 }
 #dark-btn.dark-btn-on{
     padding-left: 23px;
-    background: var(--bg-black);
+    background: var(--bg-dark-btn);
 }
 
 
@@ -368,7 +372,7 @@ nav {
     align-self: flex-start;
     height: 110vh;
     width: 23%;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
 
    
 }
