@@ -372,7 +372,7 @@ nav {
     align-self: flex-start;
     height: 110vh;
     width: 23%;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 
    
 }
@@ -925,7 +925,7 @@ hr {
 }
 
 .liked-person p:hover{
-    border-bottom: 1px solid var(--bg-hover);
+    text-decoration: underline;
 }
 
 
